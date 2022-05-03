@@ -13,7 +13,7 @@ import java.util.List;
 @RestController
 @AllArgsConstructor
 @RequestMapping("/api/authors")
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://book-app-frontend-196048.herokuapp.com/")
 public class AuthorController {
 
     private final AuthorService authorService;
